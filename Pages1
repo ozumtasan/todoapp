@@ -1,0 +1,17 @@
+sys_ıdnumber = "o120517015"
+sys_parola = "123456"
+
+ıdnumber = input ("ID NUMBER :")
+parola = input ("Password :")
+
+if (ıdnumber == sys_ıdnumber and sys_parola!= parola ):
+    print ("Password is wrong ")
+
+elif (ıdnumber != sys_ıdnumber and sys_parola == parola ):
+    print ("Id number is wrong")
+
+elif (ıdnumber != sys_ıdnumber and sys_parola != parola ):
+    print ("İnvalid Transaction")
+
+else:
+    print ("Its correct")
